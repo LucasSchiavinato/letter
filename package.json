@@ -1,0 +1,28 @@
+{
+  "name": "letter",
+  "version": "1.0.0",
+  "description": "Letter to her",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch assets/scss:assets/css",
+    "compile:sass-prod": "sass --no-source-map assets/scss:assets/css"
+  },
+
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "NODEJS",
+    "JAVASCRIPT",
+    "BOOTSTRAP5",
+    "SASS",
+    "JQUERY"
+  ],
+  "author": "Sebastian Schiavinato",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1"
+  }
+}
